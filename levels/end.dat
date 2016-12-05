@@ -1,0 +1,43 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+Dimensions: 11,11
+
+Description:
+endDescription
+
+Background:
+----------
+----------
+----------
+----------
+----------
+----------
+----------
+----------
+----------
+----------
+endBackground
+
+Ground:
+----------
+----------
+----------
+----------
+----------
+-gggggggg-
+-gggggggg-
+-gggggggg-
+-dggggggg-
+----------
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+endObjects
+
