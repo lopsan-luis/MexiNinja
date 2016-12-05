@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="95" height="24" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="world1" tilewidth="50" tileheight="50">
+  <image source="world1.png" width="400" height="850"/>
+ </tileset>
+ <tileset firstgid="137" name="background" tilewidth="40" tileheight="40">
+  <image source="background1.png" width="320" height="1480"/>
+ </tileset>
+ <tileset firstgid="433" name="objectpalette" tilewidth="50" tileheight="50">
+  <image source="objectpalette.png" width="400" height="500"/>
+ </tileset>
+ <tileset firstgid="513" name="foreground" tilewidth="50" tileheight="50">
+  <image source="foreground1.png" trans="ff00ff" width="400" height="400"/>
+ </tileset>
+ <layer name="bg" width="95" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2VN0/DQBiGz/+FNtAG2gT8CNpAG+i9dxbKhASCBCQEYeM/MIJgAIk2ICYEDAgQXfSRB8UWtuU4ITgYi3ukR7r4O8e+N/ddhJBIJBKJRCKRSJylURGiSXH7Lf4nneTehd1YgIVYhMVYIn+TmDJIvkM4jKVYhuVYgZVRZF/PPQ2Kt/pp3aXnjpLPGI5jFVZjDdZiXYjs4rgejwmYiEm6ee2MOxRjP1nxF3psG3dwF/dw/5efP2FaczOfW7AV20Lkkcz1FEzFNEzXzetnPKAY+8kKJ3rsp0zjJM6o+n75+T7W7Md83dp7GPfaZJFBLROzMBtzTHNHFGM/WRFpj8WSefSLYO6zuODAd27gpk3twKb+HXLJK8/0u2mY+8mKSHos1nzufSf2vP78WhHGM0xfOxRfZ1ys0PopHFqP9Xkge7t9+4DHeIXX6vheV7vBW7xTa6c/eelv4la24TBnP2cxR9u3qyK4Z63+m9/xHB/xSR2/6WrP+IKvau3SwTV4FX32AVwKMe8IT4Rx/96HmOs1FhWjZqaUoAGX+ucML4Rx/77Z3uEdtGzDufxHzy4vI7N3j0izl0gkX6xFocQZtqLQbT4AO+ZrHaAjAAA=
+  </data>
+ </layer>
+ <layer name="walls" width="95" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2W0UoCQRSGD115Yz2DoEVkKyIR1lWGSkZBee+VeFU9g4/eGaah7TCzM7vOtEP9H3w3isfhO8vuEgEAAAAAAAAAAAAAAEI4dXjWYNZRxHP9B1YOC9I7+GBnJXcUd19t0W/7AORu30SzL98uBvRzp/fi+zvH5zEZslu2k/A/FFX3gpjtfbswFsJHcaaH0oyZ8LZJAAuq/VukWXN20cCU7UN242tvfGXXh0b6osdesE/sO7nbLAPnqTnPQnl92cyx/Qvp1sZYzQ3n7J7szaRVu1FuKKxzbu2Nsn1qxuyEdHvVwNe/7vX8V9ub57BN9SzossfCE3bK3pB+T7N1/O3uubRXut5bpa7fX1du7JurwM6peufY/hBHgd0Ndfqjfdz2iksKu9ekbP8JD9seraAjAAA=
+  </data>
+ </layer>
+ <layer name="objects" width="95" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UoREAIAwDQLr/NDAbBxbBBtSVfxOVyLQGAAAAta24uSO3M5N94B/dXwAPhu8AAICyDpKL+DOgIwAA
+  </data>
+ </layer>
+ <layer name="fg" width="95" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQo/oAAAAAAAAAAAgJcB3vpoOKAjAAA=
+  </data>
+ </layer>
+</map>

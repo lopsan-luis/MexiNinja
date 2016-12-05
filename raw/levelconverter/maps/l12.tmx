@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="37" tilewidth="40" tileheight="40">
+ <properties>
+  <property name="atl_directory" value="maps/"/>
+  <property name="atl_drawObjects" value="true"/>
+  <property name="atl_useSpritebatch" value="true"/>
+  <property name="atl_viewH" value="600"/>
+  <property name="atl_viewPadding" value="10"/>
+  <property name="atl_viewScaling" value="1"/>
+  <property name="atl_viewW" value="800"/>
+  <property name="atl_viewX" value="0"/>
+  <property name="atl_viewY" value="0"/>
+ </properties>
+ <tileset firstgid="1" name="world1" tilewidth="50" tileheight="50">
+  <image source="world1.png" width="400" height="850"/>
+ </tileset>
+ <tileset firstgid="137" name="background" tilewidth="40" tileheight="40">
+  <image source="background1.png" width="320" height="1480"/>
+ </tileset>
+ <tileset firstgid="433" name="objectpalette" tilewidth="50" tileheight="50">
+  <image source="objectpalette.png" width="400" height="500"/>
+ </tileset>
+ <tileset firstgid="513" name="foreground" tilewidth="50" tileheight="50">
+  <image source="foreground1.png" width="400" height="400"/>
+ </tileset>
+ <layer name="bg" width="32" height="37">
+  <properties>
+   <property name="atl_offsetX" value="0"/>
+   <property name="atl_offsetY" value="0"/>
+   <property name="atl_parallaxX" value="1"/>
+   <property name="atl_parallaxY" value="1"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TwQqAMAwD0H6/B0E96dc6wYOXQVtTo5JALoPt0UHNlLdmADaaqXUGdgH6Y/Ac7bPnly+f6Wv/5Ff7a+t2Nmte37iT7F9EZ/b63v2r8tnzy3/WN7J9JPoHlb5n//48v3z5Ub93P+Nn9g/ps+f/ot/LDmIqKySAEgAA
+  </data>
+ </layer>
+ <layer name="walls" width="32" height="37">
+  <properties>
+   <property name="atl_offsetX" value="0"/>
+   <property name="atl_offsetY" value="0"/>
+   <property name="atl_parallaxX" value="1"/>
+   <property name="atl_parallaxY" value="1"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+1Xuw7DIAzkN9pMTbvQdulj7v9/VmMpltC1EbZlIIk46QYU4iPO2UAINpwmHhOejXGsuGfGW9fH/A7w/A3jB8xHav+P9/fk4l0K62O+ELX9g8itrzY88kEeHme28F+ceJ15M7yLNSQFz38m1Op7+6G1v7eiz5713s+iMC57VusXib4kbmt92se4ZriORqNmuodyzJchjtW7Xp7v+l1/zfqH8LtXUs169RDqCdp+TP3GUutL0Oay9vm56+9b/995lO+EXH+p32vfnxCov9QjSkGy3lhQX4I16H8akvr6FwXELq2AEgAA
+  </data>
+ </layer>
+ <layer name="objects" width="32" height="37">
+  <properties>
+   <property name="atl_offsetX" value="0"/>
+   <property name="atl_offsetY" value="0"/>
+   <property name="atl_parallaxX" value="1"/>
+   <property name="atl_parallaxY" value="1"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3XsQnAMAwEQGn/aeINQhZLZew2hCBB7kD1C6TmI3jjzLrsK9fQW9WN5n/6EQAA4C+q+8+T/OODXff80agL3tHZ2TaAEgAA
+  </data>
+ </layer>
+ <layer name="fg" width="32" height="37">
+  <properties>
+   <property name="atl_offsetX" value="0"/>
+   <property name="atl_offsetY" value="0"/>
+   <property name="atl_parallaxX" value="1"/>
+   <property name="atl_parallaxY" value="1"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYBSgAxOmkW3/KMAESkyoWBkaR4po4qNgFAxXoAlM39oDkMZhecsKitHznxYSfyDAQJfXA22/zQgq93RGeFxbjua3Abd/JOU3YsFIz5ejYBQMNQAAaEs5b4ASAAA=
+  </data>
+ </layer>
+</map>
