@@ -1,0 +1,164 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 33,21
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+endBackground
+
+Ground:
+oooooooooooooooooooooooooooooooo
+o------oooo-------------oooo-o-o
+o------oooo-------------oooo---o
+obb----oooo-------------oooo---o
+o------oooo-----oooo----oooo-b-o
+o------oooo-----oooo----oooo---o
+o------oooo-----oooo----oooo---o
+o------oooo-----oooo----oooo---o
+o-------ooo-----oooo----oooo---o
+o------oooo-----oooo----oooo---o
+o------oooo-----oooo----oooo---o
+o------oooo-----oooo----oooo---o
+--------oo-------ooo----oooo---o
+o---------------oooo----oooo---o
+o---------------oooo-----------o
+o---------------oooo-----------o
+o----------------ooo-----------o
+o---------------oooo-----------o
+o----------------ooo-----------o
+o---------------oooo-----------o
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Laser
+	x:7
+	y:12
+	p:timeOn=1
+	p:angle=1
+	p:phase=0
+	p:timeOff=1
+endObj
+Obj:Player
+	x:2
+	y:2
+	p:bandana=white
+endObj
+Obj:Exit
+	x:29
+	y:3
+endObj
+Obj:Rotator
+	x:18
+	y:5
+	p:rOuter=10
+	p:rInner=1
+	p:nArms=2
+	p:angle=3.1415926535898
+	p:speed=-1
+endObj
+Obj:Laser
+	x:7
+	y:8
+	p:timeOn=1
+	p:angle=2
+	p:phase=0
+	p:timeOff=1
+endObj
+Obj:Laser
+	x:16
+	y:12
+	p:timeOn=1
+	p:angle=2
+	p:phase=0.5
+	p:timeOff=1
+endObj
+Obj:Laser
+	x:16
+	y:16
+	p:timeOn=1
+	p:angle=2
+	p:phase=0
+	p:timeOff=1
+endObj
+Obj:Laser
+	x:16
+	y:18
+	p:timeOn=1
+	p:angle=2
+	p:phase=0.5
+	p:timeOff=1
+endObj
+Obj:Laser
+	x:10
+	y:12
+	p:timeOn=1
+	p:angle=1
+	p:phase=0.5
+	p:timeOff=1
+endObj
+Obj:Laser
+	x:0
+	y:12
+	p:timeOn=1
+	p:angle=0
+	p:phase=0.5
+	p:timeOff=1
+endObj
+Obj:Fixedcannon
+	x:28
+	y:1
+	p:velocity=15
+	p:angle=1
+	p:ammo=Shuriken
+	p:firerate=1.2
+	p:phase=0
+endObj
+Obj:Fixedcannon
+	x:30
+	y:1
+	p:velocity=15
+	p:angle=1
+	p:ammo=Shuriken
+	p:firerate=1.2
+	p:phase=0
+endObj
+Obj:ParallaxConfig
+	x:15
+	y:19
+	p:location=5
+	p:color=blue
+endObj
+endObjects
+

@@ -1,0 +1,254 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 35,25
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+endBackground
+
+Ground:
+wwwwwwwwwwwwwwwwwggggggggggggggggg
+w------------ww-w----------------g
+w--------------------------------g
+w--------------------------------g
+w--------------------------------g
+w--------------------------------g
+w------------ww-w----------------g
+wwwwww----wwwwwww----------------g
+w--------------ww---gggggggggggggg
+w----wwwwwwwwwwww---g------------g
+d----dddddddddddd----------------g
+g----gggggggggggg----------------g
+g----ggggggggggg-----------------g
+g----gggggggggggggggggggggggggg--g
+g----gggggggggg-------------2gg--g
+g----gggggggg---------------2gg--g
+g-------------------2-------22g--g
+g-------------------2------------g
+g-------------------2------------g
+gggggggg--gggggggggggggggggggggggg
+ggggggg-----------gggggggggggggggg
+ggggggg-----------gggggggggggggggg
+ggggggg-----------gggggggggggggggg
+gggggggggggggggggggggggggggggggggg
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Crumbleblock
+	x:9
+	y:19
+	p:lifetime=1
+endObj
+Obj:Rotator
+	x:9
+	y:16
+	p:rOuter=7
+	p:rInner=1
+	p:nArms=4
+	p:angle=0
+	p:speed=-2
+endObj
+Obj:Player
+	x:2
+	y:18
+	p:bandana=yellow
+endObj
+Obj:Fixedcannon
+	x:13
+	y:15
+	p:velocity=15
+	p:angle=0
+	p:ammo=Shuriken
+	p:firerate=1.2
+	p:phase=0
+endObj
+Obj:Goalie
+	x:28
+	y:9
+	p:direction=1
+endObj
+Obj:Fixedcannon
+	x:16
+	y:12
+	p:velocity=15
+	p:angle=0
+	p:ammo=Shuriken
+	p:firerate=2
+	p:phase=0
+endObj
+Obj:Exit
+	x:15
+	y:22
+endObj
+Obj:Appearblock
+	x:16
+	y:5
+	p:state=solid
+	p:color=red
+endObj
+Obj:Appearblock
+	x:16
+	y:4
+	p:state=solid
+	p:color=red
+endObj
+Obj:Appearblock
+	x:16
+	y:3
+	p:state=solid
+	p:color=red
+endObj
+Obj:Appearblock
+	x:28
+	y:2
+	p:state=solid
+	p:color=red
+endObj
+Obj:Appearblock
+	x:27
+	y:2
+	p:state=solid
+	p:color=red
+endObj
+Obj:Appearblock
+	x:26
+	y:2
+	p:state=solid
+	p:color=red
+endObj
+Obj:Goalie
+	x:28
+	y:1
+	p:direction=0
+endObj
+Obj:Goalie
+	x:27
+	y:1
+	p:direction=0
+endObj
+Obj:Goalie
+	x:26
+	y:1
+	p:direction=0
+endObj
+Obj:Button
+	x:31
+	y:7
+	p:lifetime=10
+	p:color=red
+endObj
+Obj:Crumbleblock
+	x:2
+	y:9
+	p:lifetime=0.5
+endObj
+Obj:Crumbleblock
+	x:3
+	y:9
+	p:lifetime=0.5
+endObj
+Obj:Crumbleblock
+	x:4
+	y:9
+	p:lifetime=0.5
+endObj
+Obj:Crumbleblock
+	x:1
+	y:9
+	p:lifetime=0.5
+endObj
+Obj:Crumbleblock
+	x:8
+	y:19
+	p:lifetime=1
+endObj
+Obj:Follower
+	x:2
+	y:8
+	p:maxSpeed=15
+endObj
+Obj:Follower
+	x:15
+	y:1
+	p:maxSpeed=15
+endObj
+Obj:Crumbleblock
+	x:6
+	y:7
+	p:lifetime=1
+endObj
+Obj:Crumbleblock
+	x:7
+	y:7
+	p:lifetime=1
+endObj
+Obj:Crumbleblock
+	x:8
+	y:7
+	p:lifetime=1
+endObj
+Obj:Crumbleblock
+	x:9
+	y:7
+	p:lifetime=1
+endObj
+Obj:Follower
+	x:15
+	y:6
+	p:maxSpeed=15
+endObj
+Obj:Follower
+	x:13
+	y:8
+	p:maxSpeed=15
+endObj
+Obj:Appearblock
+	x:16
+	y:2
+	p:state=solid
+	p:color=red
+endObj
+Obj:ParallaxConfig
+	x:21
+	y:23
+	p:location=2
+	p:color=blue
+endObj
+endObjects
+

@@ -1,0 +1,155 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 35,25
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+cccccccccccccccccccccc------------
+ccccccccccccccccccccc-------------
+cccccccccccccccccccc--------------
+cccccccccccccccccc----------------
+ccccccccccccccccc-----------------
+cccccccccccccccc------------------
+cccccccccccccccc------------------
+cccccccccccccccc------------------
+cccccccccccccccc------------------
+cccccccc--------------------------
+ccccc---------------sssss---------
+cccc---------------sssssss--------
+ccc----------------ssssssss-------
+cc-----------------sssssssss------
+c-------------------sssssssss-----
+--------------------ssssssssss----
+--------------------ssssssssss----
+--------------------ssssssssss----
+--------------------sssssssssss---
+--------------------ssssssssssss--
+-------------------sssssssssssssss
+-------------------sssssssssssssss
+-------------------sssssssssssssss
+----------------------------------
+endBackground
+
+Ground:
+cccccccccccccccccccccccccccccccccc
+cc------------------cc----------cc
+cc-----------bbbb----------------c
+cc------------cc----cc-----cc---cc
+cc------------cc----cc-----cc---cc
+cc---------bbbcc----ccc----ccccccc
+cc------------cc-----------ccccccc
+c--------------ccccccccccccccccccc
+cbbbbbbbbbbbbbbc-----------------c
+c--------------------------------c
+cbbb---------------wwwwww--------c
+c------------------w-wwwwbbbbb---c
+c------------------w-------------c
+cb-----------------wwwwwwbbbbbb--c
+c------------------wwwww---------c
+c-------------------www----------c
+c-------------------www---bbb----c
+c-------------------ww-----------c
+---------------------------------c
+-------------------------bbb-----c
+ccccccccccccccbb-----------------c
+cccccccccccccc-------------------c
+cccccccccccccc---ccccccccccccccccc
+cccccccccccccc---ccccccccccccccccc
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Player
+	x:3
+	y:19
+	p:bandana=white
+endObj
+Obj:Walker
+	x:29
+	y:12
+	p:type=enemy
+	p:direction=1
+	p:strength=23
+endObj
+Obj:Walker
+	x:30
+	y:21
+	p:type=enemy
+	p:direction=-1
+	p:strength=23
+endObj
+Obj:Walker
+	x:25
+	y:21
+	p:type=enemy
+	p:direction=-1
+	p:strength=23
+endObj
+Obj:Walker
+	x:20
+	y:21
+	p:type=enemy
+	p:direction=-1
+	p:strength=23
+endObj
+Obj:Exit
+	x:30
+	y:4
+endObj
+Obj:Walker
+	x:24
+	y:12
+	p:type=enemy
+	p:direction=1
+	p:strength=23
+endObj
+Obj:Spawner
+	x:20
+	y:11
+	p:strength=23
+	p:phase=1
+	p:spawnTime=3
+	p:type=enemy
+	p:direction=right
+endObj
+Obj:Fixedcannon
+	x:32
+	y:2
+	p:velocity=15
+	p:angle=2
+	p:ammo=Shuriken
+	p:firerate=1.2
+	p:phase=0
+endObj
+Obj:Follower
+	x:14
+	y:7
+	p:maxSpeed=15
+endObj
+Obj:LineHook
+	x:19
+	y:11
+endObj
+Obj:LineHook
+	x:0
+	y:11
+endObj
+Obj:ParallaxConfig
+	x:16
+	y:23
+	p:location=1
+	p:color=blue
+endObj
+endObjects
+

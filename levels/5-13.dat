@@ -1,0 +1,226 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 38,31
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+-------------------------------------
+endBackground
+
+Ground:
+ooooooooooooooooooooooooooooooooooooo
+o-----------------------------------o
+o-----------------------------------o
+o-----------------------------------o
+o-----------------------------------o
+o-----------------------------------o
+o-------333333333-------------------o
+o-------333333333-------------------o
+oooooooooooooooooooooooooooooooooo--o
+o--3------33---33----------------o--o
+o--3------33---33----------------o--o
+o---------33---------33----------o--o
+o---------33---------33---33-----o--o
+obb-------33--------------33-----o--o
+o-3333---------33---------33-----o--o
+oooooooooooooooooooooooooooooooooo--o
+o--------------------------------o--o
+o--------------------------------o--o
+o--------------------------------o--o
+o--------------------------------o--o
+obb------------------------------o--o
+---------------------------------o--o
+ooooooooooooooo-oooooooooooooooooo--o
+o--------------------------------o--o
+o--------------------------------o--o
+o--------------------------------o--o
+o--------------------------------o--o
+o--------------------------------o--o
+o--------------------------------o--o
+ooo------------------------------o--o
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Player
+	x:2
+	y:28
+	p:bandana=red
+endObj
+Obj:Laser
+	x:0
+	y:21
+	p:timeOn=1
+	p:angle=0
+	p:phase=0
+	p:timeOff=2
+endObj
+Obj:Anchor
+	x:9
+	y:23
+endObj
+Obj:Exit
+	x:2
+	y:7
+endObj
+Obj:Rotator
+	x:27
+	y:4
+	p:rOuter=6
+	p:rInner=1
+	p:nArms=3
+	p:angle=0
+	p:speed=-2
+endObj
+Obj:Rotator
+	x:15
+	y:5
+	p:rOuter=4
+	p:rInner=1
+	p:nArms=2
+	p:angle=0
+	p:speed=-2
+endObj
+Obj:Rotator
+	x:15
+	y:2
+	p:rOuter=4
+	p:rInner=1
+	p:nArms=2
+	p:angle=0
+	p:speed=2
+endObj
+Obj:Rotator
+	x:9
+	y:5
+	p:rOuter=4
+	p:rInner=1
+	p:nArms=2
+	p:angle=0
+	p:speed=-2
+endObj
+Obj:Rotator
+	x:9
+	y:2
+	p:rOuter=4
+	p:rInner=1
+	p:nArms=2
+	p:angle=0
+	p:speed=2
+endObj
+Obj:Appearblock
+	x:34
+	y:15
+	p:state=solid
+	p:color=red
+endObj
+Obj:Appearblock
+	x:35
+	y:15
+	p:state=solid
+	p:color=red
+endObj
+Obj:Button
+	x:2
+	y:19
+	p:lifetime=5
+	p:color=red
+endObj
+Obj:Appearblock
+	x:34
+	y:8
+	p:state=solid
+	p:color=blue
+endObj
+Obj:Appearblock
+	x:35
+	y:8
+	p:state=solid
+	p:color=blue
+endObj
+Obj:Button
+	x:2
+	y:12
+	p:lifetime=5
+	p:color=blue
+endObj
+Obj:Laser
+	x:15
+	y:22
+	p:timeOn=1
+	p:angle=1
+	p:phase=0
+	p:timeOff=0
+endObj
+Obj:Launcher
+	x:9
+	y:9
+	p:velocity=15
+	p:distance=3
+endObj
+Obj:Rotator
+	x:12
+	y:2
+	p:rOuter=4
+	p:rInner=1
+	p:nArms=2
+	p:angle=0
+	p:speed=2
+endObj
+Obj:Rotator
+	x:12
+	y:5
+	p:rOuter=4
+	p:rInner=1
+	p:nArms=2
+	p:angle=0
+	p:speed=-2
+endObj
+Obj:ParallaxConfig
+	x:20
+	y:17
+	p:location=5
+	p:color=blue
+endObj
+endObjects
+

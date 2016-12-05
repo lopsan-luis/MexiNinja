@@ -1,0 +1,86 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 35,21
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+endBackground
+
+Ground:
+cccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccc
+ccccccccccccccc--------ccccccccccc
+ccccccccccccccc--------ccccccccccc
+ccccccccccccccccccc----ccccccccccc
+c----------------cc----ccccccccccc
+ccccbccccccccccc-c-----------ccccc
+cccc-ccccccccccc-ccccccccccc-ccccc
+cccc-ccccccccccc-cc----------ccccc
+cccc-ccccccccccc-cc-cccccccccccccc
+cccc-ccccccccccc-cc-cccccccccccccc
+cccccccccccccccc-cc--------------c
+cccccccccccccccc-ccccccccccccccc-c
+cccccccccccccccc-ccccccc---------c
+cccccccccccccccc-ccccccc-ccccccccc
+cccccccccccccccc-ccccccc-ccccccccc
+cccccccccccccccc---------ccccccccc
+cccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccc
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Player
+	x:1
+	y:5
+	p:bandana=white
+endObj
+Obj:Exit
+	x:16
+	y:3
+endObj
+Obj:Follower
+	x:4
+	y:10
+	p:maxSpeed=15
+endObj
+Obj:ParallaxConfig
+	x:16
+	y:19
+	p:location=1
+	p:color=blue
+endObj
+endObjects
+

@@ -1,0 +1,129 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 44,30
+
+Author: Giovanni
+Description:
+
+endDescription
+Background:
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+endBackground
+
+Ground:
+------------cccccwwwccccccwwwccccccwwwccccc
+------------ccccc---------------------ccccc
+------------ccccc---------------------ccccc
+------------ccccc---------------------ccccc
+------------ccccc---ccccccwwwcccccc---ccccc
+------------ccccc---cccccc---cccccc---ccccc
+------------ccccc---cccccc---cccccc---ccccc
+------------ccc-----w-------------------ccc
+------------ccc-----w-------------------ccc
+------------ccc-----w-------------------ccc
+------------ccc-----w-------------------ccc
+------------cccccbbbcccccc---ccccccwwwccccc
+------------ccccc---cccccc---cccccc--------
+------------ccccc---cccccc---cccccc--------
+------------ccccc---cccccc---cccccc--------
+------------ccccc---cccccc---cccccc---ccccc
+------------ccccc---cccccc---cccccc---ccccc
+------------ccccc---cccccc---cccccc---ccccc
+------------ccccc---cccccc---cccccc---ccccc
+------------ccccc---cccccc---cccccc---ccccc
+-------------cccc---cccccc---cccccc---ccccc
+--------------cccb--cccccc---cccccc---ccccc
+--------------------cccccc------------ccccc
+--------------------cccccc------------ccccc
+---------ggg--------cccccc------------ccccc
+ggggggggggggggggggggggggggggggggggggggggggg
+ggggggggggggggggggggggggggggggggggggggggggg
+ggggggggggggggggggggggggggggggggggggggggggg
+ggggggggggggggggggggggggggggggggggggggggggg
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Exit
+	x:40
+	y:14
+endObj
+Obj:Player
+	x:2
+	y:24
+	p:bandana=white
+endObj
+Obj:Bandana
+	x:10
+	y:23
+	p:color=yellow
+endObj
+Obj:ParallaxConfig
+	x:19
+	y:28
+	p:location=2
+	p:color=blue
+endObj
+Obj:Input
+	x:18
+	y:22
+	p:button=JUMP
+endObj
+Obj:Input
+	x:18
+	y:19
+	p:button=JUMP
+endObj
+Obj:Npc
+	x:7
+	y:24
+	p:type=2
+endObj
+Obj:Text
+	x:7
+	y:20
+	p:hasPointer=true
+	p:offsetX=-1
+	p:offsetY=3
+	p:location=here
+	p:sensorH=3
+	p:sensorW=5
+	p:text=Iba en camino a salvar al Maestro Coshi, pero me dan miedo las alturas. No puedo atravesar este edificio. Porque no lo intentas tu? esa banda podria ayudarte.
+endObj
+endObjects
+

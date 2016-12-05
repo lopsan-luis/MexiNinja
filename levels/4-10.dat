@@ -1,0 +1,289 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 33,30
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+endBackground
+
+Ground:
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+---------rrrrr----rrrrr---------
+-------------r----r-------------
+-------------r----r-------------
+-------------r----r-------------
+-------------r----r-------------
+-------------r----r-------------
+-------------r----r-------------
+-------------r----r-------------
+-------------r----r-------------
+-------------r----r-------------
+-------------r----r-------------
+-------------r----r-------------
+-------------r----r-------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+-------r----------------r-------
+r------rrrrrrrrrrrrrrrrrr------r
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Launcher
+	x:14
+	y:24
+	p:velocity=15
+	p:distance=6
+endObj
+Obj:Button
+	x:26
+	y:27
+	p:lifetime=0
+	p:color=blue
+endObj
+Obj:Player
+	x:4
+	y:27
+	p:bandana=white
+endObj
+Obj:Exit
+	x:19
+	y:3
+endObj
+Obj:Crumbleblock
+	x:13
+	y:22
+	p:lifetime=1
+endObj
+Obj:Crumbleblock
+	x:14
+	y:22
+	p:lifetime=1
+endObj
+Obj:Crumbleblock
+	x:15
+	y:22
+	p:lifetime=1
+endObj
+Obj:Crumbleblock
+	x:16
+	y:22
+	p:lifetime=1
+endObj
+Obj:Crumbleblock
+	x:18
+	y:22
+	p:lifetime=1
+endObj
+Obj:Crumbleblock
+	x:13
+	y:23
+	p:lifetime=1
+endObj
+Obj:Crumbleblock
+	x:13
+	y:24
+	p:lifetime=1
+endObj
+Obj:Crumbleblock
+	x:13
+	y:25
+	p:lifetime=1
+endObj
+Obj:Crumbleblock
+	x:18
+	y:23
+	p:lifetime=1
+endObj
+Obj:Crumbleblock
+	x:18
+	y:24
+	p:lifetime=1
+endObj
+Obj:Crumbleblock
+	x:18
+	y:25
+	p:lifetime=1
+endObj
+Obj:Crumbleblock
+	x:13
+	y:26
+	p:lifetime=1
+endObj
+Obj:Crumbleblock
+	x:18
+	y:26
+	p:lifetime=1
+endObj
+Obj:Button
+	x:5
+	y:15
+	p:lifetime=0
+	p:color=green
+endObj
+Obj:Appearblock
+	x:4
+	y:16
+	p:state=solid
+	p:color=blue
+endObj
+Obj:Appearblock
+	x:5
+	y:16
+	p:state=solid
+	p:color=blue
+endObj
+Obj:Appearblock
+	x:6
+	y:16
+	p:state=solid
+	p:color=blue
+endObj
+Obj:Appearblock
+	x:28
+	y:16
+	p:state=solid
+	p:color=green
+endObj
+Obj:Appearblock
+	x:29
+	y:16
+	p:state=solid
+	p:color=green
+endObj
+Obj:Appearblock
+	x:30
+	y:16
+	p:state=solid
+	p:color=green
+endObj
+Obj:Button
+	x:2
+	y:15
+	p:lifetime=3
+	p:color=red
+endObj
+Obj:Appearblock
+	x:18
+	y:21
+	p:state=passable
+	p:color=red
+endObj
+Obj:Appearblock
+	x:18
+	y:20
+	p:state=passable
+	p:color=red
+endObj
+Obj:Appearblock
+	x:18
+	y:19
+	p:state=passable
+	p:color=red
+endObj
+Obj:Appearblock
+	x:18
+	y:17
+	p:state=passable
+	p:color=red
+endObj
+Obj:Appearblock
+	x:18
+	y:18
+	p:state=passable
+	p:color=red
+endObj
+Obj:Appearblock
+	x:1
+	y:16
+	p:state=solid
+	p:color=yellow
+endObj
+Obj:Appearblock
+	x:2
+	y:16
+	p:state=solid
+	p:color=yellow
+endObj
+Obj:Appearblock
+	x:3
+	y:16
+	p:state=solid
+	p:color=yellow
+endObj
+Obj:Button
+	x:29
+	y:15
+	p:lifetime=0
+	p:color=yellow
+endObj
+Obj:Crumbleblock
+	x:17
+	y:22
+	p:lifetime=1
+endObj
+Obj:Launcher
+	x:17
+	y:24
+	p:velocity=15
+	p:distance=6
+endObj
+Obj:ParallaxConfig
+	x:15
+	y:26
+	p:location=4
+	p:color=blue
+endObj
+endObjects
+

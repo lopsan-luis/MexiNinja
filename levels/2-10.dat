@@ -1,0 +1,97 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 33,29
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+endBackground
+
+Ground:
+gggggggggggggggggggggggggggggggg
+gggggggggggggggggggggggggggggggg
+gg-----gggggggggggggggggg-----gg
+gg-----gggggggggggggggggg-----gg
+gg-2---gggggggggggggggggg---2-gg
+gg-2---gggggggggggggggggg---2-gg
+gg-2---gggggggggggggggggg---2-gg
+gg-gggggggggggggggggggggggggg-gg
+gg-gggggggggggggggggggggggggg-gg
+gg-gggggggggggggggggggggggggg-gg
+gg-2gg----gggggggggggg----gg2-gg
+gg-2g-----gggggggggggg-----g2-gg
+gg---------gggggggggg---------gg
+gggggggg---gggggggggg---gggggggg
+ggggggggg--gggggggggg--ggggggggg
+ggggggggg--gggggggggg--ggggggggg
+ggggggggg-2gggggggggg2-ggggggggg
+ggggggggg--g--------g--ggggggggg
+gg------g--g--------g--g------gg
+gg---------g--------g---------gg
+gg---------g---22---g---------gg
+gg-22------g---22---g------22-gg
+gg-22ggggggg---gg---ggggggg22-gg
+gg-------------gg-------------gg
+gg-------------gg-------------gg
+gggggggggggggggggggggggggggggggg
+gggggggggggggggggggggggggggggggg
+gggggggggggggggggggggggggggggggg
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Exit
+	x:26
+	y:6
+endObj
+Obj:Player
+	x:5
+	y:6
+	p:bandana=yellow
+endObj
+Obj:ParallaxConfig
+	x:15
+	y:27
+	p:location=2
+	p:color=blue
+endObj
+endObjects
+

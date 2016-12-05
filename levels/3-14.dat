@@ -1,0 +1,288 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 35,30
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+endBackground
+
+Ground:
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
+------------------------22222--222
+------------------------2--------2
+------------------------2--------2
+------------------------2--------2
+------------------------2--------2
+------------------------2--------2
+------------------------2----22222
+ggggg-------------------2----22222
+ggggg222222222222222222-2--------2
+----------------------2-2--------2
+----------------------2-2--------2
+----------------------2-2--------2
+----------------------2-22222----2
+----------------------2-22222----2
+---------------222----222--------2
+---------------222---------------2
+---------------222---------------2
+---------------222---------------2
+---------------222---------------2
+-ddd-22222222222222222222222222222
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Upwind
+	x:10
+	y:27
+	p:height=10
+endObj
+Obj:Upwind
+	x:11
+	y:27
+	p:height=10
+endObj
+Obj:Upwind
+	x:12
+	y:27
+	p:height=10
+endObj
+Obj:Upwind
+	x:13
+	y:27
+	p:height=10
+endObj
+Obj:Upwind
+	x:14
+	y:27
+	p:height=10
+endObj
+Obj:Upwind
+	x:18
+	y:27
+	p:height=10
+endObj
+Obj:Upwind
+	x:19
+	y:27
+	p:height=10
+endObj
+Obj:Upwind
+	x:20
+	y:27
+	p:height=10
+endObj
+Obj:Upwind
+	x:21
+	y:27
+	p:height=10
+endObj
+Obj:Upwind
+	x:22
+	y:27
+	p:height=4
+endObj
+Obj:Upwind
+	x:15
+	y:22
+	p:height=5
+endObj
+Obj:Upwind
+	x:16
+	y:22
+	p:height=5
+endObj
+Obj:Upwind
+	x:17
+	y:22
+	p:height=5
+endObj
+Obj:Upwind
+	x:23
+	y:27
+	p:height=4
+endObj
+Obj:Upwind
+	x:24
+	y:27
+	p:height=4
+endObj
+Obj:Upwind
+	x:30
+	y:27
+	p:height=11
+endObj
+Obj:Upwind
+	x:27
+	y:20
+	p:height=11
+endObj
+Obj:Upwind
+	x:29
+	y:14
+	p:height=7
+endObj
+Obj:Upwind
+	x:27
+	y:27
+	p:height=5
+endObj
+Obj:Upwind
+	x:28
+	y:27
+	p:height=5
+endObj
+Obj:Player
+	x:2
+	y:27
+	p:bandana=green
+endObj
+Obj:Exit
+	x:2
+	y:15
+endObj
+Obj:Upwind
+	x:9
+	y:27
+	p:height=10
+endObj
+Obj:Upwind
+	x:8
+	y:27
+	p:height=10
+endObj
+Obj:Upwind
+	x:7
+	y:27
+	p:height=10
+endObj
+Obj:Upwind
+	x:6
+	y:27
+	p:height=10
+endObj
+Obj:Upwind
+	x:5
+	y:27
+	p:height=10
+endObj
+Obj:Upwind
+	x:29
+	y:27
+	p:height=11
+endObj
+Obj:Upwind
+	x:25
+	y:27
+	p:height=5
+endObj
+Obj:Upwind
+	x:23
+	y:22
+	p:height=6
+endObj
+Obj:Bonus
+	x:23
+	y:21
+endObj
+Obj:Upwind
+	x:26
+	y:27
+	p:height=5
+endObj
+Obj:Upwind
+	x:31
+	y:27
+	p:height=11
+endObj
+Obj:Upwind
+	x:32
+	y:27
+	p:height=11
+endObj
+Obj:Upwind
+	x:28
+	y:20
+	p:height=11
+endObj
+Obj:Upwind
+	x:26
+	y:20
+	p:height=11
+endObj
+Obj:Upwind
+	x:25
+	y:20
+	p:height=11
+endObj
+Obj:Upwind
+	x:30
+	y:14
+	p:height=7
+endObj
+Obj:Upwind
+	x:31
+	y:14
+	p:height=5
+endObj
+Obj:Upwind
+	x:32
+	y:14
+	p:height=5
+endObj
+Obj:ParallaxConfig
+	x:21
+	y:28
+	p:location=3
+	p:color=blue
+endObj
+endObjects
+

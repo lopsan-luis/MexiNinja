@@ -1,0 +1,149 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 34,27
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+endBackground
+
+Ground:
+ooooooooooooooooooooooooooooooooo
+o--------oooooooooo--oooooooooooo
+o--------oooooooooo--oooooooooooo
+o----oo--oooooooooo--oooooooooooo
+o--oooo---------------------ooooo
+o--oo-----------------------ooooo
+o--ooooooooooooooooooooooo-----oo
+o--oooooooooo-oooooooooooo-----oo
+o--oooooooooo------------oooob-oo
+o--oooooooooo------------oooo--oo
+o--oooooooooo-oooooooo--ooooo-boo
+o--oooooooooo-oooooooo--ooooo--oo
+o--oooooooooo-oooooooo--ooooob-oo
+o--oooooooooo-oooooooo--ooooo--oo
+o--oooooooooo-oooooooo--ooooo-boo
+o--oooooooooo-oooooo----ooooo--oo
+o--oooooooooo-oooooo----ooooob-oo
+o--oooooo-----ooooooo--oooooo--oo
+o--oooooo-----ooooooo--oooooo-boo
+o--oooooooooooooooooo--oooooo--oo
+o--oooooooooooooooooo--oooooob-oo
+o--oooooooooooooooooo--oooooo--oo
+o------------oooooooo----------oo
+o------------oooooooo----------oo
+o--ooooooooooooooooooo-oooooo--oo
+ooooooooooooooooooooooooooooooooo
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Laser
+	x:1
+	y:24
+	p:timeOn=1
+	p:angle=-1
+	p:phase=0
+	p:timeOff=2
+endObj
+Obj:Laser
+	x:2
+	y:24
+	p:timeOn=1
+	p:angle=-1
+	p:phase=0.5
+	p:timeOff=2
+endObj
+Obj:Player
+	x:11
+	y:23
+	p:bandana=red
+endObj
+Obj:Laser
+	x:4
+	y:5
+	p:timeOn=1
+	p:angle=0
+	p:phase=0
+	p:timeOff=2
+endObj
+Obj:Laser
+	x:30
+	y:24
+	p:timeOn=0.5
+	p:angle=-1
+	p:phase=0
+	p:timeOff=1.5
+endObj
+Obj:Laser
+	x:29
+	y:24
+	p:timeOn=0.5
+	p:angle=-1
+	p:phase=0.5
+	p:timeOff=1.5
+endObj
+Obj:Laser
+	x:22
+	y:24
+	p:timeOn=0.5
+	p:angle=-1
+	p:phase=0.5
+	p:timeOff=0
+endObj
+Obj:Exit
+	x:10
+	y:18
+endObj
+Obj:Laser
+	x:13
+	y:7
+	p:timeOn=1
+	p:angle=1
+	p:phase=0.5
+	p:timeOff=0
+endObj
+Obj:ParallaxConfig
+	x:13
+	y:18
+	p:location=5
+	p:color=blue
+endObj
+endObjects
+

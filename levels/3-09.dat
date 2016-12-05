@@ -1,0 +1,109 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 33,21
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+endBackground
+
+Ground:
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+---------2-----------2----------
+gggggggggggggggggggggggggggg---g
+dddddddddd------ddd-----dddd---d
+ddddddd----dddddd---ddd-dddd---d
+ddddddd-dd-dddddd-ddddd----d---d
+ddd-----ddddddddd-dddddddd-ddddd
+ddd-ddddd----ddd--d----ddd-ddddd
+ddd--------------dd-dd-----ddddd
+dddddddddddddddddddddddddddddddd
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Player
+	x:15
+	y:11
+	p:bandana=white
+endObj
+Obj:Imitator
+	x:15
+	y:13
+endObj
+Obj:Appearblock
+	x:28
+	y:12
+	p:state=solid
+	p:color=red
+endObj
+Obj:Appearblock
+	x:29
+	y:12
+	p:state=solid
+	p:color=red
+endObj
+Obj:Appearblock
+	x:30
+	y:12
+	p:state=solid
+	p:color=red
+endObj
+Obj:Button
+	x:19
+	y:18
+	p:lifetime=0
+	p:color=red
+endObj
+Obj:Exit
+	x:29
+	y:15
+endObj
+Obj:ParallaxConfig
+	x:15
+	y:19
+	p:location=3
+	p:color=blue
+endObj
+endObjects
+

@@ -1,0 +1,217 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 45,21
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+--------------------------------------------
+endBackground
+
+Ground:
+dddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddddddd
+dddddddd-----------------ddd--------------dd
+ddddddddddddddddddddddd--ddd--------------dd
+ddddddddddddddddddddddd--ddd--------------dd
+ddddddddddddddddddddddd--ddddd---d---ddd-ddd
+dd-----------------------d---d---d----dddddd
+dd-----------------------dd--d---d----dddddd
+dd-----------------------d---d---dd---dddddd
+dddddd---ddddddddddddddddd---d---d----dddddd
+ddd--------------------------d---d----dddddd
+ddd--------------------------d---d---ddddddd
+ddd--------------------------d---d----dddddd
+ddddddddddddddddddd--ddddddddd---d----dddddd
+ddddddddddddddddddd---------------d-------dd
+ddddddddddddddddddd-----------------------dd
+ddddddddddddddddddd-----------------------dd
+dddddddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddddddd
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Rotator
+	x:16
+	y:10
+	p:rOuter=7
+	p:rInner=1
+	p:nArms=2
+	p:angle=0
+	p:speed=-2
+endObj
+Obj:Imitator
+	x:8
+	y:3
+endObj
+Obj:Player
+	x:2
+	y:9
+	p:bandana=green
+endObj
+Obj:Button
+	x:23
+	y:9
+	p:lifetime=5
+	p:color=red
+endObj
+Obj:Appearblock
+	x:6
+	y:10
+	p:state=solid
+	p:color=red
+endObj
+Obj:Appearblock
+	x:7
+	y:10
+	p:state=solid
+	p:color=red
+endObj
+Obj:Appearblock
+	x:8
+	y:10
+	p:state=solid
+	p:color=red
+endObj
+Obj:Button
+	x:3
+	y:13
+	p:lifetime=1
+	p:color=blue
+endObj
+Obj:Appearblock
+	x:19
+	y:14
+	p:state=solid
+	p:color=blue
+endObj
+Obj:Appearblock
+	x:20
+	y:14
+	p:state=solid
+	p:color=blue
+endObj
+Obj:Appearblock
+	x:33
+	y:15
+	p:state=solid
+	p:color=green
+endObj
+Obj:Appearblock
+	x:33
+	y:16
+	p:state=solid
+	p:color=green
+endObj
+Obj:Appearblock
+	x:33
+	y:17
+	p:state=solid
+	p:color=green
+endObj
+Obj:Button
+	x:29
+	y:5
+	p:lifetime=1
+	p:color=green
+endObj
+Obj:Button
+	x:40
+	y:6
+	p:lifetime=0
+	p:color=yellow
+endObj
+Obj:Appearblock
+	x:38
+	y:17
+	p:state=solid
+	p:color=yellow
+endObj
+Obj:Appearblock
+	x:38
+	y:16
+	p:state=solid
+	p:color=yellow
+endObj
+Obj:Appearblock
+	x:38
+	y:15
+	p:state=solid
+	p:color=yellow
+endObj
+Obj:Exit
+	x:40
+	y:17
+endObj
+Obj:CameraGuideRect
+	x:15
+	y:11
+	p:transition=0.2
+	p:offsetY=2
+	p:sensorH=14
+	p:sensorW=13
+	p:offsetX=8
+endObj
+Obj:Appearblock
+	x:21
+	y:7
+	p:state=solid
+	p:color=green
+endObj
+Obj:Appearblock
+	x:21
+	y:8
+	p:state=solid
+	p:color=green
+endObj
+Obj:Appearblock
+	x:21
+	y:9
+	p:state=solid
+	p:color=green
+endObj
+Obj:Button
+	x:26
+	y:7
+	p:lifetime=1
+	p:color=green
+endObj
+Obj:ParallaxConfig
+	x:22
+	y:19
+	p:location=3
+	p:color=blue
+endObj
+endObjects
+

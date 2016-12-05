@@ -1,0 +1,136 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 39,29
+
+Author: Giovanni
+Description:
+
+endDescription
+Background:
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+endBackground
+
+Ground:
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--------------------------------------
+--ccc-------------------------cccccccc
+cccccccccccc------------------cccccccc
+cc----------------------------------cc
+cc--------------------cccccccccccc--cc
+cc-------cc--------bb-cccccccccccc--cc
+cc-------cc-------bb--cccccccccccc--cc
+cc-------ccccccccccccccccccccccccc--cc
+cccc------cccccccccccccccccccccccc--cc
+cccc-------ccccccccccccccccccccccc--cc
+cccc-----------ccccccccccccccccccc--cc
+cccccc------------cccccccccccccccc--cc
+cccccc------------------cccccccccc--cc
+cccccc---ccc------------------------cc
+cccccc---ccc------------------------cc
+cccccccccccccccc--------------------cc
+cccccc--------cc------------------cccc
+cccccc-----------------ccccccccccccccc
+cccccc-----------------ccccccccccccccc
+cccccccccccccccccccccccccccccccccccccc
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Exit
+	x:35
+	y:8
+endObj
+Obj:Bandana
+	x:6
+	y:26
+	p:color=white
+endObj
+Obj:Npc
+	x:10
+	y:26
+	p:delay=0
+	p:displayTime=10
+	p:regionSize=10
+	p:display=region
+	p:text=
+endObj
+Obj:Player
+	x:3
+	y:8
+	p:bandana=blank
+endObj
+Obj:Text
+	x:10
+	y:22
+	p:hasPointer=true
+	p:offsetX=0
+	p:offsetY=3
+	p:location=here
+	p:sensorH=3
+	p:sensorW=9
+	p:text=Toma esa banda y empieza a ser alguien genial...como un computologo.
+endObj
+Obj:Input
+	x:4
+	y:6
+	p:button=RIGHT
+endObj
+Obj:Input
+	x:2
+	y:6
+	p:button=LEFT
+endObj
+Obj:Input
+	x:3
+	y:5
+	p:button=JUMP
+endObj
+Obj:ParallaxConfig
+	x:19
+	y:27
+	p:location=1
+	p:color=blue
+endObj
+endObjects
+

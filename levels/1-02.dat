@@ -1,0 +1,122 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 60,31
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+-----------------------------------------------------------
+-----------------------------------------------------------
+-----------------------------------------------------------
+-------------------------ccc-------------------------------
+-------------------------ccc-------------------------------
+------------------------ccccc------------------------------
+------------------------ccccc------------------------------
+------------------------ccccc------------------------------
+-----------------------ccccccc-----------------------------
+-----------------------ccccccc-----------------------------
+-----------------------ccccccc-----------------------------
+-----------------------ccccccc-----------------------------
+--------cccccccccccccccccccccc-----------------------------
+--------cccccccccccccccccccccc-----------------------------
+--------cccccccccccccccccccccc-----------------------------
+--------ccccccccccccccccccccccccccccccccc------------------
+--------ccccccccccccccccccccccccccccccccc------------------
+--------ccccccccccccccccccccccccccccccccc------------------
+--------ccccccccccccccccccccccccccccccccc------------------
+--------ccccccccccccccccccccccccccccccccc------------------
+--------ccccccccccccccccccccccccccccccccc------------------
+--------ccccccccccccccccccccccccccccccccc------------------
+--------ccccccccccccccccccccccccccccccccc------------------
+--------ccccccccccccccccccccccccccccccccc------------------
+--------ccccccccccccccccccccccccccccccccc------------------
+--------ccccccccccccccccccccccccccccccccc------------------
+--------ccccccccccccccccccccccccccccccccc------------------
+--------ccccccccccccccccccccccccccccccccc------------------
+--------ccccccccccccccccccccccccccccccccc------------------
+--------cccccccccccccccccccccc-----------------------------
+endBackground
+
+Ground:
+-------------------------------------------------------cccc
+-------------------------------------------------------cccc
+-------------------------------------------------------cccc
+-------------------------------------------------------cccc
+-------------------------------------------------------cccc
+-------------------------------------------------------cccc
+-------------------------------------------------------cccc
+-------------------------------------------------------cccc
+-------------------------------------------------------cccc
+------------------------ccccc--------------------------cccc
+---------------------bbbccccc--------------------------cccc
+------------------------ccccc------cccccccccccccc------cccc
+------------ccccccc-----ccccc---------cccccccc---------cccc
+---------------------------------------cccccc----------cccc
+---cccccc------------------------------cccccc----------cccc
+-------cc------------------------------cccccc----------cccc
+-------cccc----------------------------cccccc----------cccc
+-------ccccbbb-------------------------cccccc----------cccc
+---------ccc-----bbc-------------------cccccc----------cccc
+---------ccc-------c-------------------cccccc----------cccc
+-------------------ccbbbcccccccccc-----cccccc----------cccc
+-----------------------------cc--------cccccc----------cccc
+-----------------------------cc------ccccccccccbb------cccc
+-----------------------------cc------cccccccccc--------cccc
+-----------------------------cc------cccccccccc--------cccc
+----------------------------ccccbbbbbcccccccccc------------
+-------------------------------------cccccccccc------------
+-------------------------------------cccccccccc------------
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+endGround
+
+BgObjects:
+	1_4x11 2 27
+	1_7x11 1 27
+	1_2x13 0 27
+	1_4x10 2 26
+	1_7x10 1 26
+	1_2x12 0 26
+	1_7x8 3 25
+	1_6x8 2 25
+	1_5x8 1 25
+	1_7x5 0 25
+	1_6x15 2 24
+	1_5x15 1 24
+	1_3x15 0 24
+	1_7x7 1 23
+	1_6x7 0 23
+endBgObjects
+
+Objects:
+Obj:Exit
+	x:57
+	y:27
+endObj
+Obj:Player
+	x:4
+	y:27
+	p:bandana=white
+endObj
+Obj:Windmill
+	x:26
+	y:3
+	p:wings=5
+	p:speed=0.5
+endObj
+Obj:ParallaxConfig
+	x:24
+	y:29
+	p:location=1
+	p:color=blue
+endObj
+endObjects
+

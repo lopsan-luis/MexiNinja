@@ -1,0 +1,110 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 33,31
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+endBackground
+
+Ground:
+-----------ggggggggggggg--------
+-----------ggggggggggggg--------
+-----------gggggg----gggg-------
+--gggg---gggggggg----gggg-------
+--ggggggggggggggg----ggggg------
+---ggggggggggggggbb--ggggg------
+---gggggggggggggg----gggggg-----
+---ggggg----gg-gddd--ggggggg----
+----gggg----gg-gggg--ggggggg----
+----gggg-------gggg--gggggggg---
+----gggg--ddd--ggg2--gggggggg---
+----gggg---gg--ggg2--ggggggggg--
+----gggg---gg--ggg2--gggggggggg-
+---dgggg---gg--ggg2--ggggggggggg
+---ggggg---gg--gggg--ggggggggggg
+--dggggg---gg--gggg--ggggggggggg
+--gggggg---gg--gggg--ggggggggggg
+-dgggggg--dgg--------ggggggggggg
+-ggggggg---gg--------ggggggggggg
+-ggggggg---gg--dddddddgggggggggg
+--gggggg---gg2dggggggggggggggggg
+---gggggd--gggggggggggggggggggg-
+---gggggg------------ggggggggg--
+----ggggg------------gggggggg---
+----ggggg------------ggggg------
+----ggggg-----ddddddddggg-------
+----ggggg-----gggggggggg--------
+----ggggg-----gggggggggg--------
+----ggggg--o--gggggggggg--------
+---dggggg-----gggggggggdd-------
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Exit
+	x:18
+	y:4
+endObj
+Obj:Goalie
+	x:14
+	y:13
+	p:direction=0
+endObj
+Obj:Goalie
+	x:10
+	y:15
+	p:direction=0
+endObj
+Obj:Goalie
+	x:11
+	y:26
+	p:direction=0
+endObj
+Obj:Player
+	x:19
+	y:24
+	p:bandana=white
+endObj
+endObjects
+

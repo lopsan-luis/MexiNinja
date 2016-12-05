@@ -1,0 +1,93 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 67,15
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+ccccc------------cccccccccccccc----cccccccccccccc------------ccccc
+ccccccccc--------cccccccccccccc----cccccccccccccc--------ccccccccc
+cccccccccc-------cccccccccccccc----cccccccccccccc-------cccccccccc
+ccccccccccc------cccccccccccccc----cccccccccccccc------ccccccccccc
+cccccccccccc-----cccccccccccccc----cccccccccccccc-----cccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+ccccccccccccccccccccccc--cccccccccccccccc--ccccccccccccccccccccccc
+ccccccccccccccccccccccc--cccccccccccccccc--ccccccccccccccccccccccc
+ccccccccccccccccccccccc--cccccccccccccccc--ccccccccccccccccccccccc
+-ccccccccccc-----cccccccccccccc----cccccccccccccc-----ccccccccccc-
+--ccccccccc------cccccccccccccc----cccccccccccccc------ccccccccc--
+---ccccccc-------cccccccccccccc----cccccccccccccc-------ccccccc---
+----ccccc--------cccccccccccccc----cccccccccccccc--------ccccc----
+-----------------cccccccccccccc----cccccccccccccc-----------------
+endBackground
+
+Ground:
+rrrrrrrrrrrrr----rrrrrrrrrrrrrr----rrrrrrrrrrrrrr----rrrrrrrrrrrrr
+r---rrrrrrrrr----r------------r----r------------r----rrrrrrrrr---r
+r-rrr---rrrrr----r------------r----r------------r----rrrrr---rrr-r
+r-rr-----rrrr----r------------r----r------------r----rrrr-----rr-r
+r-r-------rrr----r------------r----r------------r----rrr-------r-r
+r----------rrrrrrr----rrrr----rrrrrr----rrrr----rrrrrrr----------r
+r---------------------rrrr--------------rrrr---------------------r
+r---------------------rrrr--------------rrrr---------------------r
+rr---------rrrrrrrr---rrrr---rrrrrrrr---rrrr---rrrrrrrr---------rr
+rrr-------rrr----r----rrrr----r----r----rrrr----r----rrr-------rrr
+rrrr-----rrrr----r------------r----r------------r----rrrr-----rrrr
+rrrrr---rrrrr----r------------r----r------------r----rrrrr---rrrrr
+rrrrrrrrrrrrr----r------------r----r------------r----rrrrrrrrrrrrr
+rrrrrrrrrrrrr----rrrrrrrrrrrrrr----rrrrrrrrrrrrrr----rrrrrrrrrrrrr
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Launcher
+	x:6
+	y:3
+	p:velocity=15
+	p:distance=3
+endObj
+Obj:Player
+	x:3
+	y:1
+	p:bandana=blue
+endObj
+Obj:Launcher
+	x:19
+	y:3
+	p:velocity=15
+	p:distance=3
+endObj
+Obj:Launcher
+	x:46
+	y:3
+	p:velocity=15
+	p:distance=3
+endObj
+Obj:Exit
+	x:62
+	y:1
+endObj
+Obj:Launcher
+	x:59
+	y:3
+	p:velocity=15
+	p:distance=3
+endObj
+Obj:ParallaxConfig
+	x:17
+	y:13
+	p:location=4
+	p:color=blue
+endObj
+endObjects
+

@@ -1,0 +1,99 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 37,30
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+------------------------------------
+endBackground
+
+Ground:
+gggggggggggggggggggggggggggggggggggg
+gggggggggggggggggggggggggggggggggggg
+gggggg-----------ggg--------------gg
+gggggg-----------ggg--------------gg
+gggggg-----------ggg--------------gg
+gggggg-----------ggg--------------gg
+ggggg------------ggg--------gggg--gg
+gggg------ww----gggg--------gggg--gg
+gggg------ww----gggg----------gg--gg
+gg--------ww-----------www----gg--gg
+gg--------ww------------------gg--gg
+gg--------ww------------------gg--gg
+gg---ggggggggggggggg----------gg--gg
+gg---ggggggggggggggg----------gg--gg
+gg---ggggggggggggggggggggggggggg--gg
+gg---ggggggggggggggggggggggggggg--gg
+gg---ggggggggggggggggggggggggggg--gg
+gg--------------gggg--------------gg
+gg--------------gggg--------------gg
+gg--------------gggg--gggggggggggggg
+gg--------------gggg---------------g
+gggggggggggg----gggg---------------g
+gggggggggggg----gggg------------wwwg
+gggggggggggg----gggg-----wwww------g
+----------------gggg---------------g
+----------------gggg---------------g
+----------------gggg---------------g
+gggggggggggggggggggggggggggggggggggg
+gggggggggggggggggggggggggggggggggggg
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Exit
+	x:33
+	y:21
+endObj
+Obj:Player
+	x:2
+	y:26
+	p:bandana=yellow
+endObj
+Obj:ParallaxConfig
+	x:21
+	y:28
+	p:location=2
+	p:color=blue
+endObj
+endObjects
+

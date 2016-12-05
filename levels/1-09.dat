@@ -1,0 +1,141 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 34,21
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+---------------------------------
+endBackground
+
+Ground:
+------------ccccccccc------------
+----------cccc-----cccc----------
+--------cccc---------cccc--------
+-------cc---------------cc-------
+------cc-----------------cc------
+------c-------------------c------
+------c-------------------c------
+------c------w-----w------c------
+------c------wwwwwww------c------
+------c-------------------c------
+------c-------------------c------
+------c---wbb-------bbw---c------
+------c---w-----------w---c------
+----------w----bbb----w----------
+----------w-----------w----------
+ccccccccccccccccccccccccccccccccc
+ccccccccccccccccccccccccccccccccc
+ccccccccccccccccccccccccccccccccc
+ccccccccccccccccccccccccccccccccc
+ccccccccccccccccccccccccccccccccc
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Player
+	x:3
+	y:14
+	p:bandana=white
+endObj
+Obj:Exit
+	x:29
+	y:14
+endObj
+Obj:LineHook
+	x:6
+	y:11
+endObj
+Obj:LineHook
+	x:10
+	y:11
+endObj
+Obj:LineHook
+	x:6
+	y:8
+endObj
+Obj:LineHook
+	x:13
+	y:8
+endObj
+Obj:LineHook
+	x:19
+	y:8
+endObj
+Obj:LineHook
+	x:26
+	y:8
+endObj
+Obj:LineHook
+	x:22
+	y:11
+endObj
+Obj:LineHook
+	x:26
+	y:11
+endObj
+Obj:Walker
+	x:21
+	y:14
+	p:type=enemy
+	p:direction=-1
+	p:strength=23
+endObj
+Obj:Walker
+	x:11
+	y:14
+	p:type=enemy
+	p:direction=1
+	p:strength=23
+endObj
+Obj:Walker
+	x:14
+	y:7
+	p:type=enemy
+	p:direction=1
+	p:strength=23
+endObj
+Obj:Walker
+	x:18
+	y:7
+	p:type=enemy
+	p:direction=-1
+	p:strength=23
+endObj
+Obj:ParallaxConfig
+	x:15
+	y:17
+	p:location=1
+	p:color=blue
+endObj
+endObjects
+

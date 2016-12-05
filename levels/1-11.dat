@@ -1,0 +1,134 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 33,21
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+endBackground
+
+Ground:
+c-------------------------------
+c-------------------------------
+c-------------------------------
+c-------------------------------
+c----1111111111-----------------
+c----ccccccccc1-----------------
+c------------c1---------------cc
+c------------c1---------------cc
+ccccccccc----cc--c111111111111cc
+c------------ccccccccccccccccccc
+c------------cc-------cccccccccc
+------------ccc-------cccccccccc
+c--cccccccccccc-------cccccccccc
+c--cc----------bbb-------------c
+c--cc--------------------------c
+c-------ccc--ccccccccccc-------c
+c------ccccccccccccccccccc-----c
+cccccccccccccccccccccccccccc---c
+cccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccc
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Player
+	x:30
+	y:5
+	p:bandana=white
+endObj
+Obj:Fixedcannon
+	x:30
+	y:13
+	p:velocity=15
+	p:angle=2
+	p:ammo=Shuriken
+	p:firerate=1.6
+	p:phase=0
+endObj
+Obj:Fixedcannon
+	x:30
+	y:14
+	p:velocity=15
+	p:angle=2
+	p:ammo=Shuriken
+	p:firerate=1.6
+	p:phase=0
+endObj
+Obj:Exit
+	x:29
+	y:17
+endObj
+Obj:Fixedcannon
+	x:0
+	y:11
+	p:velocity=15
+	p:angle=0
+	p:ammo=Shuriken
+	p:firerate=1.4
+	p:phase=0
+endObj
+Obj:LineHook
+	x:30
+	y:2
+endObj
+Obj:LineHook
+	x:2
+	y:2
+endObj
+Obj:Fixedcannon
+	x:15
+	y:8
+	p:velocity=15
+	p:angle=-1
+	p:ammo=Shuriken
+	p:firerate=1.2
+	p:phase=0.2
+endObj
+Obj:Fixedcannon
+	x:16
+	y:8
+	p:velocity=15
+	p:angle=-1
+	p:ammo=Shuriken
+	p:firerate=1.2
+	p:phase=0
+endObj
+Obj:ParallaxConfig
+	x:16
+	y:19
+	p:location=1
+	p:color=blue
+endObj
+endObjects
+

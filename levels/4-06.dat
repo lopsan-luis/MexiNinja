@@ -1,0 +1,117 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 33,21
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+--------------------------------
+-cccccccccccccccccccccccccccccc-
+-cccccccccccccccccccccccccccccc-
+-cccccccccccccccccccccccccccccc-
+-cccccccccccccccccccccccccccccc-
+-cccccccccccccccccccccccccccccc-
+-cccccccccccccccccccccccccccccc-
+-cccccccccccccccccccccccccccccc-
+-ccccccccccc--------ccccccccccc-
+-ccccccccccc--------ccccccccccc-
+-ccccccccccc--------ccccccccccc-
+-ccccccccccc--------ccccccccccc-
+-ccccccccccc--------ccccccccccc-
+-cccccccccccccc--cccccccccccccc-
+-cccccccccccccc--cccccccccccccc-
+-cccccccccccccc--cccccccccccccc-
+-cccccccccccccc--cccccccccccccc-
+----------ccccc--ccccc----------
+----------ccccc--ccccc----------
+----------ccccc--ccccc----------
+endBackground
+
+Ground:
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+rr-------------33-------------rr
+rr-------------33-------------rr
+rr-------------33-------------rr
+rr-------------33-------------rr
+rr-------------33-------------rr
+rr---------rrrrrrrrrr---------rr
+rr---------rrrrrrrrrr---------rr
+rr---------rrrrrrrrrr---------rr
+rr---------rrrrrrrrrr---------rr
+rr---------rrrrrrrrrr---------rr
+rr---------rrrrrrrrrr---------rr
+rr---------rrrrrrrrrr---------rr
+rr------------rrrr------------rr
+rr------------rrrr------------rr
+rrrrrrrrrrr---rrrr---rrrrrrrrrrr
+rrrrrrrrrrr---rrrr---rrrrrrrrrrr
+rrrrrrrrrrr---rrrr---rrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Appearblock
+	x:11
+	y:16
+	p:state=solid
+	p:color=red
+endObj
+Obj:Appearblock
+	x:12
+	y:16
+	p:state=solid
+	p:color=red
+endObj
+Obj:Appearblock
+	x:13
+	y:16
+	p:state=solid
+	p:color=red
+endObj
+Obj:Button
+	x:19
+	y:18
+	p:lifetime=10
+	p:color=red
+endObj
+Obj:Launcher
+	x:9
+	y:8
+	p:velocity=15
+	p:distance=3
+endObj
+Obj:Launcher
+	x:22
+	y:8
+	p:velocity=15
+	p:distance=3
+endObj
+Obj:Exit
+	x:12
+	y:18
+endObj
+Obj:Player
+	x:12
+	y:15
+	p:bandana=white
+endObj
+Obj:ParallaxConfig
+	x:16
+	y:16
+	p:location=4
+	p:color=blue
+endObj
+endObjects
+

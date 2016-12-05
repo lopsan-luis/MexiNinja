@@ -1,0 +1,162 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 33,34
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+endBackground
+
+Ground:
+cccccccccccccccccccccccccccccccc
+cccccccc-cccccccc-cccccccccccccc
+c-----------------------------cc
+c-----------------------------cc
+c-----------------------------cc
+c-----------------------------cc
+c------------------------------c
+c--------cccccccccccccccccc---cc
+ccccccccccccccccccccccccccc---cc
+ccccc-ccccccc-c-ccccccc-c-c---cc
+c-----------------------------cc
+c-----------------------------cc
+c-----------------------------cc
+c-----------------------------cc
+c---c-ccccccc---ccccccc---cccccc
+c---c-ccccccc-c-ccccccc-c-cccccc
+c---cccccccccccccccccccccccccccc
+c---cccccccccccccccccccccccccccc
+c---cc------------------c------c
+c---cc----------ww-----cc------c
+c---------------ww-----cc------c
+c-------------wwww-----cc------c
+c-------------wwww-------------c
+cccccc-ccccccccccc--------c----c
+cccccc-cccccccccccccccccccc----c
+ccccccccccccccccccccccccccc----c
+c---------------c--------------c
+c---------------c--------------c
+c---------------c--------------c
+cccccccc---ccccccccc---ccccccccc
+cccccccc-----------------------c
+cccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccc
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Exit
+	x:3
+	y:28
+endObj
+Obj:Player
+	x:2
+	y:7
+	p:bandana=white
+endObj
+Obj:Follower
+	x:14
+	y:30
+	p:maxSpeed=15
+endObj
+Obj:Follower
+	x:5
+	y:15
+	p:maxSpeed=15
+endObj
+Obj:Follower
+	x:5
+	y:9
+	p:maxSpeed=15
+endObj
+Obj:Follower
+	x:13
+	y:15
+	p:maxSpeed=15
+endObj
+Obj:Follower
+	x:15
+	y:15
+	p:maxSpeed=15
+endObj
+Obj:Follower
+	x:23
+	y:15
+	p:maxSpeed=15
+endObj
+Obj:Follower
+	x:25
+	y:15
+	p:maxSpeed=15
+endObj
+Obj:Follower
+	x:8
+	y:1
+	p:maxSpeed=15
+endObj
+Obj:Follower
+	x:17
+	y:1
+	p:maxSpeed=15
+endObj
+Obj:Follower
+	x:6
+	y:24
+	p:maxSpeed=15
+endObj
+Obj:Follower
+	x:23
+	y:18
+	p:maxSpeed=15
+endObj
+Obj:ParallaxConfig
+	x:14
+	y:32
+	p:location=1
+	p:color=blue
+endObj
+endObjects
+

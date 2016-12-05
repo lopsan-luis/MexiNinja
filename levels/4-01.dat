@@ -1,0 +1,104 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 41,21
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+----------------------------------------
+----ccccccccccccccccccccccccccccc-------
+----ccccccccccccccccccccccccccccc-------
+----ccccccccccccccccccccccccccccccc-----
+----ccccccccccccccccccccccccccccccc-----
+----ccccccccccccccccccccccccccccccccccc-
+----ccccccccccccccccccccccccccccccccccc-
+----ccccccccccccccccccccccccccccccccccc-
+----ccccccccccccccccccccccccccccccccccc-
+----ccccccccccccccccccccccccccccccccccc-
+-cccccccccccccccccccccccccccccccccccccc-
+-cccccccccccccccccccccccccccccccccccccc-
+-cccccccccccccccccccccccccccccccccccccc-
+-cccccccccccccccccccccccccccccccccccccc-
+-cccccccccccccccccccccccccccccccccccccc-
+-ccccc------------------cccc------------
+-ccccc------------------cccc------------
+-ccccc------------------cccc------------
+------------------------cccc------------
+------------------------cccc------------
+endBackground
+
+Ground:
+----rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr-----
+----rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr-----
+--rrr------------r--------------rrrrr---
+--rrr------------r--------------rrrrr---
+rrrrr------------r----------------rrrrr-
+rrrrr----33333---r------rrrrr-----rrrrr-
+rrrrr----33r-----r------rrrr3-----r---rr
+rrrrr------r-----r------rrrr3-----r---rr
+rrrrr------r-----r------rrrr3-----rbbbrr
+rrrrrr33---r-----r------rrrr3---------rr
+rrrrrr33---r-----r33----rrrr3---------rr
+rr---rr----r---33333----rrrr3------bbbrr
+rr---rr----r------------r3333---------rr
+rr---rr----r--------------------------rr
+rr---rrrrrrrrrrrrrrrrrrrr33rrrrrrrrrrrrr
+rr---rrrrrrrrrrrrrrrrrrrr--rrrrrrrrrrrrr
+rr---rrrrrrrrrrrrrrrrrrrr--rrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrrrrr--rrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrrrrr--rrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrrrrr--rrrrrrrrrrrrr
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Player
+	x:8
+	y:13
+	p:bandana=green
+endObj
+Obj:Exit
+	x:3
+	y:16
+endObj
+Obj:Bandana
+	x:36
+	y:7
+	p:color=blue
+endObj
+Obj:Npc
+	x:33
+	y:13
+	p:delay=0
+	p:displayTime=10
+	p:regionSize=10
+	p:display=region
+	p:text=
+endObj
+Obj:Bonus
+	x:36
+	y:1
+endObj
+Obj:ParallaxConfig
+	x:22
+	y:18
+	p:location=4
+	p:color=blue
+endObj
+Obj:Input
+	x:36
+	y:5
+	p:button=DASH
+endObj
+endObjects
+

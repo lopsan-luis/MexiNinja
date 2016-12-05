@@ -1,0 +1,92 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 33,24
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------cccccc
+--------------------------cccccc
+--------------------------cccccc
+--------------------------cccccc
+----------------------cccccccccc
+----------------------cccccccccc
+----------------------cccccccccc
+------------------cccccccccccccc
+------------------cccccccccccccc
+------------------cccccccccccccc
+--------------cccccccccccccccccc
+--------------cccccccccccccccccc
+--------------cccccccccccccccccc
+--------cccccccccccccccccccccccc
+------cccccccccccccccccccccccccc
+---ccccccccccccccccccccccccccccc
+---ccccccccccccccccccccccccccccc
+endBackground
+
+Ground:
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+---------------------------rrrrr
+--------------------------------
+-----------------------r--------
+--------------------------------
+--------------------------------
+------------------rr------------
+--------------------------------
+--------------------------------
+--------------rr----------------
+--------------r-----------------
+--------------------------------
+-bbb------rr--------------------
+----------rr--------------------
+--------------------------------
+rrrrrrrr------------------------
+rrrrrrr-------------------------
+rrrr----------------------------
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Cannon
+	x:3
+	y:7
+	p:firerate=1
+endObj
+Obj:Player
+	x:2
+	y:19
+	p:bandana=white
+endObj
+Obj:Exit
+	x:29
+	y:5
+endObj
+Obj:ParallaxConfig
+	x:16
+	y:21
+	p:location=4
+	p:color=blue
+endObj
+endObjects
+

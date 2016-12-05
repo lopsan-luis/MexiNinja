@@ -1,0 +1,120 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 33,21
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+----------cccc----cccc----------
+----------cccc----cccc----------
+----------cccc----cccc----------
+------cccccccccccccccccccc------
+------cccccccccccccccccccc------
+------cccccccccccccccccccc------
+-ccccccccccccccccccccccccccccc--
+-ccccccccc----cccc----cccccccc--
+-ccccccccc----cccc----cccccccc--
+-ccccccccc----cccc----cccccccc--
+-ccccccccc----cccc----cccccccc--
+-ccccccccc----cccc----cccccccc--
+-ccccccccccccccccccccccccccccc--
+------cccccccccccccccccccc------
+------cccccccccccccccccccc------
+------cccccccccccccccccccc------
+----------cccc----cccc----------
+----------cccc----cccc----------
+----------cccc----cccc----------
+------------------cccc----------
+endBackground
+
+Ground:
+rrrrrrrrrrrrrrrrrrr-rrrrrrrrrrrr
+rrrrrrrrrrr--rrrrrr--rrrrrrrrrrr
+rrrrrrrrrrr--rrrrrr--rrrrrrrrrrr
+rrrrrrrrrrr--rrrrrr--rrrrrrrrrrr
+rrrrrrr--rr--rr--rr--rr--rrrrrrr
+rrrrrrr--rr--rr--rr--rr--rrrrrrr
+rrrrrrr--rrrrrr--rr-rrr--rrrrrrr
+rr---rr--rrrrrr--rrrrrr--rr--rrr
+rr---rr--rrrrrr--rrrrrr--rr--rrr
+rrrrrrrrrrrrrrrrrrrrrrrrrrr--rrr
+rr---rr--rrrrrr--rrrrrr--rr--rrr
+rr---rr--rrrrrr--rrrrrr--rr--rrr
+rrrrrrr--rrrrrr--rrrrrr--rrrrrrr
+rrrrrrr--rr--rr--rr--rr--rrrrrrr
+rrrrrrr--rr--rr--rr--rr--rrrrrrr
+rrrrrrrrrrr--rr-rrr--rrrrrrrrrrr
+rrrrrrrrrrr--rrrrrr--rrrrrrrrrrr
+rrrrrrrrrrr--rrrrrr--rrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrr--rrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrr--rrrrrrrrrrr
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Player
+	x:3
+	y:11
+	p:bandana=blue
+endObj
+Obj:Exit
+	x:3
+	y:8
+endObj
+Obj:Fixedcannon
+	x:15
+	y:15
+	p:velocity=15
+	p:angle=-1
+	p:ammo=Shuriken
+	p:firerate=1.2
+	p:phase=0
+endObj
+Obj:Fixedcannon
+	x:19
+	y:6
+	p:velocity=15
+	p:angle=-1
+	p:ammo=Shuriken
+	p:firerate=0.4
+	p:phase=0
+endObj
+Obj:Fixedcannon
+	x:19
+	y:0
+	p:velocity=15
+	p:angle=1
+	p:ammo=Shuriken
+	p:firerate=0.4
+	p:phase=0.5
+endObj
+Obj:Goalie
+	x:28
+	y:9
+	p:direction=0
+endObj
+Obj:Walker
+	x:11
+	y:5
+	p:type=enemy
+	p:direction=-1
+	p:strength=23
+endObj
+Obj:ParallaxConfig
+	x:19
+	y:18
+	p:location=4
+	p:color=blue
+endObj
+endObjects
+

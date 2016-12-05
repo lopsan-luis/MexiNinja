@@ -1,0 +1,269 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 16,67
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+endBackground
+
+Ground:
+ooooooooooooooo
+ooooooooooooooo
+oo-----------oo
+oo-----------oo
+oobbbbbbbbbbboo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+o------------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+o------------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo---ooooo---oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+o-------------o
+oo-----------oo
+oo-----------oo
+oo-----------oo
+o-------------o
+oo-----------oo
+oo-----------oo
+oo-----o-----oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-----------oo
+oo-ooooooooo-oo
+ooooooooooooooo
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Laser
+	x:2
+	y:64
+	p:timeOn=1
+	p:angle=-1
+	p:phase=0
+	p:timeOff=3
+endObj
+Obj:Player
+	x:6
+	y:63
+	p:bandana=red
+endObj
+Obj:Exit
+	x:7
+	y:3
+endObj
+Obj:Laser
+	x:12
+	y:64
+	p:timeOn=1
+	p:angle=-1
+	p:phase=0.5
+	p:timeOff=3
+endObj
+Obj:Follower
+	x:1
+	y:48
+	p:maxSpeed=15
+endObj
+Obj:Rotator
+	x:9
+	y:33
+	p:rOuter=6
+	p:rInner=1
+	p:nArms=1
+	p:angle=0
+	p:speed=2
+endObj
+Obj:Rotator
+	x:5
+	y:33
+	p:rOuter=6
+	p:rInner=1
+	p:nArms=1
+	p:angle=0
+	p:speed=-2
+endObj
+Obj:Follower
+	x:13
+	y:52
+	p:maxSpeed=15
+endObj
+Obj:Fixedcannon
+	x:8
+	y:55
+	p:velocity=15
+	p:angle=0
+	p:ammo=Shuriken
+	p:firerate=1.2
+	p:phase=0
+endObj
+Obj:Fixedcannon
+	x:6
+	y:55
+	p:velocity=15
+	p:angle=2
+	p:ammo=Shuriken
+	p:firerate=1.2
+	p:phase=0
+endObj
+Obj:Rotator
+	x:9
+	y:8
+	p:rOuter=6
+	p:rInner=1
+	p:nArms=2
+	p:angle=0
+	p:speed=-2
+endObj
+Obj:Rotator
+	x:5
+	y:8
+	p:rOuter=6
+	p:rInner=1
+	p:nArms=2
+	p:angle=1.5707963267949
+	p:speed=2
+endObj
+Obj:Laser
+	x:1
+	y:25
+	p:timeOn=2.5
+	p:angle=0
+	p:phase=0.5
+	p:timeOff=2
+endObj
+Obj:Laser
+	x:1
+	y:19
+	p:timeOn=2.5
+	p:angle=0
+	p:phase=0
+	p:timeOff=2
+endObj
+Obj:ParallaxConfig
+	x:7
+	y:28
+	p:location=5
+	p:color=blue
+endObj
+endObjects
+

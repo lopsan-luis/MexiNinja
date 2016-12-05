@@ -1,0 +1,140 @@
+BANDANA LEVEL
+----------------------------------------
+File created with Bandana level editor.
+To play the level, put it into the 'userlevels'
+subdirectory. To edit it, place this file into
+the 'mylevels' directory.
+MapFileVersion:1
+Dimensions: 33,40
+
+Author: Giovanni
+Description:
+
+endDescription
+
+Background:
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+endBackground
+
+Ground:
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+ddddddddddddddddd-----dddddddddd
+ddddddddddddddddd-----dddddddddd
+ddddddddddd-----------dddddddddd
+ddddddddd------------bdddddddddd
+dddd------------------dddddddddd
+ddd-------------------dddddddddd
+ddd-------ddddd------bdddddddddd
+dd--------ddddd-------dddddddddd
+dd------ddddddd-------dddddddddd
+dd------ddddddd------bdddddddddd
+dd---dddddddddd-------dddddddddd
+dd----ddddddddd-------dddddddddd
+dd--------ddddd-------dddddddddd
+dddd-------dddd---------dddddddd
+dddd-------dddd-------------dddd
+dddd-------dddd--------------ddd
+dddddd------ddddddddddddddd--ddd
+dddddd------ddddddddddddddd--ddd
+dddddddd---------------------ddd
+dddddddd---------------------ddd
+ddddddddddddd----------------ddd
+ddddddd-----d----------------ddd
+ddddddd------------ddddddddddddd
+ddddddd------------ddddddddddddd
+dddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddd
+endGround
+
+BgObjects:
+endBgObjects
+
+Objects:
+Obj:Exit
+	x:28
+	y:12
+endObj
+Obj:Player
+	x:14
+	y:12
+	p:bandana=blank
+endObj
+Obj:Npc
+	x:24
+	y:28
+	p:type=3
+endObj
+Obj:Bandana
+	x:9
+	y:36
+	p:color=white
+endObj
+Obj:Text
+	x:24
+	y:24
+	p:hasPointer=true
+	p:offsetX=-2
+	p:offsetY=3
+	p:location=here
+	p:sensorH=3
+	p:sensorW=5
+	p:text=Estaba en camino para salvar al Maestro Coshi. Me dijieron, que con la banda blanca significa que mi barrio me respalda y que podria saltar ese vacio, pero estaban muy buenos los dogos...
+endObj
+Obj:ParallaxConfig
+	x:17
+	y:11
+	p:location=1
+	p:color=blue
+endObj
+endObjects
+
